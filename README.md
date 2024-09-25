@@ -48,15 +48,16 @@
 
 ###폴더구조
 
-📂 ROCK-PAPER-SCISSORS/  
-├── 📄 best_jmk.pt                # 가위, 바위, 보 인식을 위한 학습된 YOLO 모델 파일  
-├── 📄 camera.ipynb               # 웹캠 캡처 코드를 포함한 Jupyter 노트북 파일  
-├── 📄 detect.py                  # 웹캠에서 실시간 손 모양을 인식하여 가위, 바위, 보를 처리하는 메인 코드  
-├── 📄 generateModel.ipynb        # YOLO 모델을 가위, 바위, 보 인식용으로 추가 학습시키는 코드  
-├── 📄 init.ipynb                 # YOLO 모델 테스트를 위한 코드  
-├── 📄 reverse-data.py            # 이미지 데이터를 반전시켜 데이터 증강을 수행하는 코드  
-└── 📄 rps.ipynb                  # 가위, 바위, 보 인식의 주요 로직이 포함된 Jupyter 노트북 파일  
-
+```plaintext
+📂 ROCK-PAPER-SCISSORS/
+├── 📄 best_jmk.pt                # 가위, 바위, 보 인식을 위한 학습된 YOLO 모델
+├── 📄 camera.ipynb               # 웹캠 캡처 코드를 포함
+├── 📄 detect.py                  # 웹캠에서 실시간 손 모양을 인식하여 가위, 바위, 보를 처리하는 메인 코드
+├── 📄 generateModel.ipynb        # YOLO 모델을 가위, 바위, 보 인식용으로 추가 학습
+├── 📄 init.ipynb                 # YOLO 모델 테스트
+├── 📄 reverse-data.py            # 이미지 데이터를 반전시켜 데이터 증강을 수행하는 코드
+└── 📄 rps.ipynb                  # 가위, 바위, 보 인식의 주요 로직
+```
 
 ---
 
