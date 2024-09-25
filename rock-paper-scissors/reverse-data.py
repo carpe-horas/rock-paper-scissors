@@ -2,18 +2,18 @@ import cv2
 import os
 import glob
 
-이미지를 반전시킬 경로 설정 (입력 경로와 출력 경로를 동일하게 설정)
+#이미지를 반전시킬 경로 설정 (입력 경로와 출력 경로를 동일하게 설정)
 directory = './dataset/valid/paper'  # 원본 이미지들이 있는 경로
 
-지원할 이미지 확장자들 (필요시 확장자 추가 가능)
+#지원할 이미지 확장자들 (필요시 확장자 추가 가능)
 image_extensions = ['.jpg', '.jpeg', '.png', '.bmp', '*.tiff']
 
-각 확장자별로 파일 리스트 가져오기
+#각 확장자별로 파일 리스트 가져오기
 image_files = []
 for ext in image_extensions:
     image_files.extend(glob.glob(os.path.join(directory, ext)))
 
-이미지 파일들 처리
+#이미지 파일들 처리
 for image_path in image_files:
     # 파일명과 확장자 분리
     filename = os.path.basename(image_path)
